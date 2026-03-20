@@ -1,0 +1,24 @@
+/* 
+ไฟล์ index.css นี้เป็นไฟล์แยกสำหรับเขียน CSS (Cascading Style Sheets)
+1. นำเข้า TailwindCSS v4 เพื่อใช้งาน Utility Classes สำหรับการออกแบบ UI
+2. กำหนดสไตล์พื้นฐาน เช่น การเลื่อนหน้าจอที่นุ่มนวล (smooth scroll)
+*/
+
+@import "tailwindcss";
+
+/* 
+กำหนดให้ Tailwind ใช้ระบบ Class (เปิด/ปิดด้วยคลาส .dark ที่แท็ก html) 
+แทนที่จะอิงตามการตั้งค่าสว่าง/มืดของตัวเครื่อง 
+*/
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  /* ทำให้การกดลิงก์ในหน้าเว็บแล้วเลื่อนลงมามีความนุ่มนวล */
+  scroll-behavior: smooth;
+}
+
+body {
+  /* กำหนดรูปแบบตัวอักษรพื้นฐาน */
+  font-family: 'Inter', system-ui, sans-serif;
+  /* (ลบ color: #333 ออกเพื่อให้ <body> ยอมเปลี่ยนสีตาม Tailwind) */
+}
