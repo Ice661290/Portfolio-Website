@@ -31,7 +31,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 font-semibold tracking-[0.2em] uppercase mt-2">
-            Full Stack Developer
+            Back-end Developer
           </p>
         </div>
 
