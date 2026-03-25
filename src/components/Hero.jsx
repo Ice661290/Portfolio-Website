@@ -30,9 +30,9 @@ const Hero = () => {
               <span className="text-blue-600 dark:text-blue-400 text-4xl md:text-6xl lg:text-7xl ml-4">(Ice)</span>
             </span>
           </h1>
-          <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 font-semibold tracking-[0.2em] uppercase mt-2">
+          {/* <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 font-semibold tracking-[0.2em] uppercase mt-2">
             Full-stack Developer
-          </p>
+          </p> */}
         </div>
 
       </div>

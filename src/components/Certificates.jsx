@@ -27,6 +27,30 @@ const Certificates = () => {
       tag: 'By NIA',
       title: 'โครงการ STARTUP THAILAND LEAGUE 2025 ครั้งที่ 9',
       img: '/images/Startup.jpg',
+    },
+    {
+      id: 5,
+      tag: 'By CPA',
+      title: 'Toeic',
+      img: '/images/Toeic.png',
+    },
+    {
+      id: 6,
+      tag: 'By HCU',
+      title: 'รางวัลผลสัมฤทธิ์ทางการเรียนดีเด่น ประจำปีการศึกษา 2566',
+      img: '/images/GoodCery1.png',
+    },
+    {
+      id: 7,
+      tag: 'By HCU',
+      title: 'รางวัลเกียรติคุณ ประจำปีการศึกษา 2566',
+      img: '/images/66.png',
+    },
+    {
+      id: 8,
+      tag: 'By HCU',
+      title: 'รางวัลเกียรติคุณ ประจำปีการศึกษา 2567',
+      img: '/images/67.png',
     }
   ];
 
@@ -38,11 +62,11 @@ const Certificates = () => {
           Certificates
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {certs.map(cert => (
             <div key={cert.id} className="flex flex-col bg-white dark:bg-slate-900 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden border border-gray-100 dark:border-slate-700 p-2">
 
-              <div 
+              <div
                 className="h-48 bg-gray-50 dark:bg-slate-800 rounded-2xl flex items-center justify-center p-4 relative mb-4 overflow-hidden group cursor-pointer"
                 onClick={() => setSelectedImg(cert.img)}
               >
@@ -64,12 +88,12 @@ const Certificates = () => {
         </div>
 
         {selectedImg && (
-          <div 
+          <div
             className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
             onClick={() => setSelectedImg(null)}
           >
             <div className="relative max-w-5xl w-full flex justify-center" onClick={(e) => e.stopPropagation()}>
-              <button 
+              <button
                 className="absolute -top-12 right-0 text-white hover:text-red-400 font-bold text-4xl transition-colors"
                 onClick={() => setSelectedImg(null)}
               >
