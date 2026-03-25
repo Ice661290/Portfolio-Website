@@ -38,7 +38,7 @@ const Certificates = () => {
       id: 6,
       tag: 'By HCU',
       title: 'รางวัลผลสัมฤทธิ์ทางการเรียนดีเด่น ประจำปีการศึกษา 2566',
-      img: '/images/GoodCery1.png',
+      img: '/images/GoodCerY1.png',
     },
     {
       id: 7,
@@ -62,9 +62,9 @@ const Certificates = () => {
           Certificates
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-8">
           {certs.map(cert => (
-            <div key={cert.id} className="flex flex-col bg-white dark:bg-slate-900 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden border border-gray-100 dark:border-slate-700 p-2">
+            <div key={cert.id} className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] flex flex-col bg-white dark:bg-slate-900 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden border border-gray-100 dark:border-slate-700 p-2">
 
               <div
                 className="h-48 bg-gray-50 dark:bg-slate-800 rounded-2xl flex items-center justify-center p-4 relative mb-4 overflow-hidden group cursor-pointer"
