@@ -23,6 +23,11 @@
 
    <img width="1269" height="720" alt="Contact" src="https://github.com/user-attachments/assets/1d4bdf04-fac3-4f06-ada3-125a8de28e7c" />
 
+## 🛠 Tools 
+
+| **HTML** | **CSS** | **JavaScript** | **React** | **Tailwind** |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="100" height="100"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="100" height="100"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="100" height="100"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="100" height="100"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="100" height="100"> |
 
 
 
