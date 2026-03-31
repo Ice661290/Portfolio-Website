@@ -7,7 +7,7 @@ const Projects = () => {
     {
       id: "1",
       title: 'Canteen Queue Reservation System',
-      tags: ['HTML', 'CSS', 'PHP', 'SQL', 'XAMPP'],
+      tags: ['HTML', 'CSS', 'Javascript', 'PHP', 'SQL', 'XAMPP'],
       desc: 'A canteen queue reservation system developed to manage and streamline the process of ordering and collecting food from the canteen.',
       img: '/images/testimonials/Canteen Queue Reservation System.png',
       link: 'https://github.com/Ice661290/Campus-Eats-Reservation-The-Kill-'
@@ -23,11 +23,35 @@ const Projects = () => {
     {
       id: "3",
       title: 'Solar System Simulation',
-      tags: ['Unity'],
+      tags: ['Unity', 'C#'],
       desc: 'A 3D Solar System simulation developed using the Unity Game Engine. The project accurately demonstrates the relative distances, orbital velocities, and rotational speeds of each planet, all based on scaled-down real-world proportions.',
-      img: '/images/testimonials/3DProject.png',
+      img: '/images/testimonials/3DSolar.png',
       link: 'https://github.com/Ice661290/SolarSystemSimulation'
-    }
+    },
+    {
+      id: "4",
+      title: 'Enhanced Firewall Simulator',
+      tags: ['Python'],
+      desc: 'A network security simulation tool developed to understand packet filtering rules, network protocols, and the logic behind system defense mechanisms.',
+      img: '/images/testimonials/Firewall.png',
+      link: 'https://github.com/Ice661290/Enhanced-Firewall-Simulator'
+    },
+    {
+      id: "5",
+      title: 'Space Invaders',
+      tags: ['Java'],
+      desc: 'A classic 2D arcade shooter game developed to practice game loop mechanics, collision detection, and object-oriented programming principles.',
+      img: '/images/testimonials/Java OOP Game.png',
+      link: 'https://github.com/Ice661290/Space-Invaders'
+    },
+    {
+      id: "6",
+      title: 'Gacha Simulation System',
+      tags: ['C'],
+      desc: 'A randomized item drop simulation system developed to practice programming fundamentals, probability algorithms (RNG), and core game reward mechanics.',
+      img: '/images/testimonials/Gacha.png',
+      link: 'https://github.com/Ice661290/Gacha-Simulation'
+    },
   ];
 
   return (
@@ -37,7 +61,7 @@ const Projects = () => {
           My Project
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map(project => (
             <div
               key={project.id}
