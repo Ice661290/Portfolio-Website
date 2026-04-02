@@ -19,7 +19,7 @@ const Certificates = () => {
     {
       id: 3,
       tag: 'By FutureSkills',
-      title: 'พื้นฐานการสร้างเกมด้วย AI ฉบับเข้าใจง่าย',
+      title: 'Basic AI Game Development: A Simple Edition',
       img: '/images/AI_Game.jpg',
     },
     {
@@ -31,19 +31,19 @@ const Certificates = () => {
     {
       id: 5,
       tag: 'By HCU',
-      title: 'รางวัลผลสัมฤทธิ์ทางการเรียนดีเด่น ประจำปีการศึกษา 2566',
+      title: 'Academic Excellence 2023',
       img: '/images/GoodCerY1.png',
     },
     {
       id: 6,
       tag: 'By HCU',
-      title: 'รางวัลเกียรติคุณ ประจำปีการศึกษา 2566',
+      title: 'HCU Certificate of Honor 2023',
       img: '/images/66.png',
     },
     {
       id: 7,
       tag: 'By HCU',
-      title: 'รางวัลเกียรติคุณ ประจำปีการศึกษา 2567',
+      title: 'HCU Certificate of Honor 2024',
       img: '/images/67.png',
     }
   ];

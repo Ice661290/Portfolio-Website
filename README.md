@@ -17,7 +17,8 @@
 
  * Certificates
 
-   <img width="1268" height="718" alt="Cer" src="https://github.com/user-attachments/assets/eb022bdb-3171-432e-a231-0e3876454c5e" />
+   <img width="2560" height="1440" alt="Screenshot 2026-04-02 232715" src="https://github.com/user-attachments/assets/7921c74a-b486-455d-90f0-1274dd7a3311" />
+
 
  * Contact
 
