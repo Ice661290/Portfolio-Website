@@ -25,7 +25,7 @@ const Certificates = () => {
     {
       id: 4,
       tag: 'By CPA',
-      title: 'Toeic',
+      title: 'TOEIC',
       img: '/images/Toeic.png',
     },
     {
