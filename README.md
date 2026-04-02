@@ -17,12 +17,13 @@
 
  * Certificates
 
-   <img width="2560" height="1440" alt="Screenshot 2026-04-02 232715" src="https://github.com/user-attachments/assets/7921c74a-b486-455d-90f0-1274dd7a3311" />
+   <img width="2560" height="1440" alt="Screenshot 2026-04-02 234006" src="https://github.com/user-attachments/assets/54b67931-8c24-4895-951d-fb92d7ba2f7b" />
 
 
  * Contact
 
-   <img width="1269" height="720" alt="Contact" src="https://github.com/user-attachments/assets/1d4bdf04-fac3-4f06-ada3-125a8de28e7c" />
+   <img width="2560" height="1440" alt="Screenshot 2026-04-02 234744" src="https://github.com/user-attachments/assets/aeb45dba-f09e-4a12-9808-b949b75d610b" />
+
 
 ## 🛠 Tools 
 
