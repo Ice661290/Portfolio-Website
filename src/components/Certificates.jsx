@@ -24,30 +24,24 @@ const Certificates = () => {
     },
     {
       id: 4,
-      tag: 'By NIA',
-      title: 'โครงการ STARTUP THAILAND LEAGUE 2025 ครั้งที่ 9',
-      img: '/images/Startup.jpg',
-    },
-    {
-      id: 5,
       tag: 'By CPA',
       title: 'Toeic',
       img: '/images/Toeic.png',
     },
     {
-      id: 6,
+      id: 5,
       tag: 'By HCU',
       title: 'รางวัลผลสัมฤทธิ์ทางการเรียนดีเด่น ประจำปีการศึกษา 2566',
       img: '/images/GoodCerY1.png',
     },
     {
-      id: 7,
+      id: 6,
       tag: 'By HCU',
       title: 'รางวัลเกียรติคุณ ประจำปีการศึกษา 2566',
       img: '/images/66.png',
     },
     {
-      id: 8,
+      id: 7,
       tag: 'By HCU',
       title: 'รางวัลเกียรติคุณ ประจำปีการศึกษา 2567',
       img: '/images/67.png',
